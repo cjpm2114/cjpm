@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-family: arial;
+			background-color: #fff;
+		}
+		h2, h3, h4, h5, h6{
+			font-family: 'Nova Round', cursive;
+		}
+		.wrap{
+
+			background: rgba(0,0,0,0.1) url(coverpic.jpg) no-repeat;
+			background-position: center;
+			background-size: cover;
+			height: 80vh;
+			overflow: hidden;
+			background-blend-mode: overlay;
+		}
+		.wave{
+			position: absolute;
+			width: 100%;
+			margin-top: 400px;
+			color: #fff;
+			opacity: 1;
+		}
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+		}
+		header .logo{
+			color: #fff;
+			float: left;
+			padding: 20px 30px;
+			font-family: arial;
+			display: inline-block;
+			width: 10%;
+			margin-right: 25px;
+		}
+		header .logo a{
+			display: inline-block;
+			width: 15%;
+			margin-right: 25px;
+
+		}
+		header .logo img{
+			width: 100%;
+		}
+		header .menu{
+			float: right;
+			margin-top: 5px;
+			padding: 50px 80px;
+		}
+		header ul li{
+			display: inline-block;
+		}
+		header ul li a{
+			text-decoration: none;
+			font-size: 16px;
+			color: #fff;
+			margin: 0 25px;
+			font-weight: 300;
+			letter-spacing: 1px;
+		}
+		.content{
+			text-align: center;
+			margin-right: 10%;
+			margin-left: 10%;
+			color: black;
+		}
+		.content p{
+			font-family: 'Nova Round', cursive;
+			font-size: 23px;
+			padding: 40px 0;
+			font-weight: 300;
+		}
+		.btn-group{
+			margin-top: 0px;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.btn-group a{
+			font-weight: bold;
+			display: inline-block;
+			padding: 15px 45px;
+			text-decoration: none;
+			color: #000;
+			border-radius: 50px;
+		}
+		.btn-group a.color1{
+			color: black;
+			background-color: #ffc107;
+		}
+		.our-partners{
+			padding-left: 10%;
+			position: absolute;
+		}
+		.our-partners h3{
+			font-size: 28px;
+			margin-bottom: 5px;
+		}
+		.our-partners hr{
+			border: none;
+			height: 4px;
+			width: 105px;
+			background-color: orange;
+		}
+		.our-partners-in{
+			margin-top: 30px;
+		}
+		.our-partners-in a{
+			display: inline-block;
+			width: 15%;
+			margin-right: 25px;
+
+		}
+		.our-partners-in img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<a class="logo" href="#"><img src="TPKmenu.png"></a>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="login1.php">Logout</a></li>
+				</ul>
+			</div>
+		</header>
+
+
+		<!-- wave -->
+		<svg class="wave"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L60,256C120,224,240,160,360,154.7C480,149,600,203,720,224C840,245,960,235,1080,208C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+
+</div>
+		<div class="content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		</div>	
+		<div class="btn-group">
+				<a href="#" class="color1">Contact Us</a>
+				<a href="#">Learn More</a>
+		</div>
+		<br>
+	<div class="our-partners">
+
+		<h3>Visit Us</h3>
+		<hr>
+		<br>
+		<div class="our-partners-in">
+			<a href="#"><img src="fb.png"></a>
+			<a href="#"><img src="instagram.png"></a>
+
+		</div>
+			<br><br><br><br>
+	</div>
+
+</body>
+</html>
